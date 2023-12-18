@@ -7,7 +7,9 @@
                 "${env:VULKAN_SDK}/Include"
             ],
             "defines": [
-                "_MBCS"
+                "_MBCS",
+                "WINDOWS_BUILD",
+                "LINUX_BUILD"
             ],
             "intelliSenseMode": "windows-msvc-x64"
         }
